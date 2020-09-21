@@ -1,0 +1,21 @@
+body{
+    margin:0;
+    direction: rtl;
+    overflow: hidden;
+}
+
+.editeable:empty::before{
+    content:attr(data-placeholder);
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+a:visited{
+    color: unset;
+}
+
+.m_b_small{
+    margin-bottom: 1rem;
+}
